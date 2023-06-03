@@ -1,0 +1,169 @@
+* {
+	font-family: 'Verdana', sans-serif;
+	box-sizing: border-box;
+}
+html {
+	 scroll-behavior: smooth;
+}
+/* Back to top button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #fff; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 42px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*Navbar*/
+nav{
+	font-size: 24px;
+	background-color: #293453;
+}
+
+.navbar-brand
+{
+  font-size: 24px;
+  margin: 10px;
+}
+
+.imgbig {
+	width: 70% !important;
+    height: 450px !important;
+    margin: auto;
+    padding-bottom: 15px;
+}
+/*Navbar*/
+
+/* Carousel */
+.slideshow {
+	background-color: #0b132b;
+	border-bottom: 3px lightskyblue solid;
+	border-top: 3px lightskyblue solid;
+}
+/* Carousel */
+
+/* Services */
+.services {
+	display: grid;
+	background-color: #0b132b;
+	color: #fff;
+	border-bottom: 3px lightskyblue;
+}
+
+.services i {
+    font-size: 2rem;
+    color: lightskyblue; 
+}
+
+.lines {
+    width: 10%;
+    height: 3px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+/* Services */
+
+/* Counter */
+.counters {
+	border-top: 3px lightskyblue solid;
+	background-color: #0b132b;	
+	padding-bottom: 20px;
+}
+.counter {
+	font-size: 24px;
+	margin: 10px 0;
+}
+
+.counter-name {
+	font-size: 24px;
+}
+/* Counter */
+
+/* About Us */
+#founder-box {
+	display: -webkit-box;
+	align-items: center !important;
+}
+/* About Us */
+
+a {
+	text-decoration: none !important;
+	color: #141d26;
+}
+
+/*Footer*/
+footer {
+	margin-top: auto;
+	background-color: #293453;
+	border-top: 3px lightskyblue solid;
+}
+.footer-top {
+	background-color: #c51f5d;
+	border-bottom: 3px lightskyblue solid;
+}
+.footer-logo {
+	padding: 5px;
+	text-align: center;
+}
+
+.footer-copyright {
+	color: #c51f5d; 
+}
+
+.phrase {
+	color: #fff;
+}
+
+.name {
+	color: #c51f5d;
+}
+
+.nav-link {
+	color: #fff;
+}
+/*Footer*/
+
+/* Register form */
+.border-md {
+    border-width: 2px;
+}
+
+.btn-facebook {
+    background: #405D9D;
+    border: none;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+    background: #314879;
+    color: black;
+}
+
+.btn-google {
+	color: white;
+	background-color: #ea4335;
+}
+
+.btn-google:hover, .btn-google:focus {
+	color: black;
+	background-color: #ea4335;
+}
+/* Register form */
+
+/*Chat*/
+.chat-detail .chat-body {
+	background-image: url("../images/background.jpg") !important;
+}
+/*Chat*/
